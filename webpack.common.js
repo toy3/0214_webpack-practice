@@ -15,7 +15,7 @@ const postcssLoader = {
 
 const isProduction = process.env.NODE_ENV === 'PRODUCTION';
 
-// URL로더: data uris?는 4가지 파트로 구성된다=> data:mediatype;base64,data 이렇게 4파트가 한줄로.
+// URL로더: data uris?는 4가지 파트로 구성된다=> data:mediatype;base64,data 이렇게 4파트가 한줄로.!!!
 
 module.exports = {
     entry: './src/index.js',
